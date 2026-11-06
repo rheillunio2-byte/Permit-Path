@@ -1,147 +1,195 @@
-
+ <!-- README.md -->
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Manrope&weight=700&size=20&duration=3000&pause=1000&color=4F765B&center=true&vCenter=true&width=700&lines=Making+Business+Compliance+Clearer;A+Smarter+Path+to+Business+Readiness;Organized.+Guided.+Simplified." alt="Animated typing introduction" />
+<!-- UNIQUE ANIMATED HEADER -->
+<img src="https://capsule-render.vercel.app/api?type=rect&height=220&color=0:102B24,50:1E493A,100:B99A5B&text=PERMITPATH&fontColor=F8F5EC&fontSize=58&fontAlignY=42&desc=Your%20Business.%20Your%20Path.%20Your%20Progress.&descAlignY=65&descSize=16&animation=fadeIn" width="100%" />
 
-<br>
+<img src="https://readme-typing-svg.demolab.com?font=Playfair+Display&weight=500&size=22&duration=3000&pause=1000&color=B99A5B&center=true&vCenter=true&width=700&lines=Start+with+Clarity.;Stay+Organized.+Stay+Compliant.;Every+Business+Has+a+Path.;Make+Your+Next+Step+Simpler." alt="Animated typing introduction" />
 
-**Your business. Your permits. One clear path.**
+<br/>
 
-A modern business permit and compliance assistant designed to help entrepreneurs organize requirements, manage applications, keep documents in one place, and stay ahead of renewals.
+**A smarter, simpler way to navigate business registration and permit requirements.**
 
-<br>
+<br/>
 
-[Explore Features](#-features) • [Application Preview](#-application-preview) • [Installation](#-installation) • [Contributing](#-contributing)
+[![HTML5](https://img.shields.io/badge/HTML5-Structure-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-Styling-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![License](https://img.shields.io/badge/License-MIT-B99A5B?style=for-the-badge)](https://github.com/rheillunio2-byte/Permit-Path?tab=MIT-1-ov-file)
+[![Status](https://img.shields.io/badge/Status-Prototype-1E493A?style=for-the-badge)](#)
+
+<br/>
+
+[Overview](#-overview) •
+[Features](#-features) •
+[Preview](#-application-preview) •
+[Installation](#-installation) •
+[Contributing](#-contributing) •
+[License](#-license)
 
 </div>
 
 ---
 
-# 🌿 About PermitPath
+## 🌿 Overview
 
-PermitPath is a guided business registration and permit compliance assistant designed to make the administrative side of starting and managing a business easier to understand.
+**PermitPath** is a business permit and registration assistance platform concept designed to help entrepreneurs and business owners better understand, organize, and track their business compliance journey.
 
-Business owners often need to coordinate requirements, prepare documents, follow application progress, and keep track of renewal dates across different offices and agencies. These tasks can become difficult to manage when information is scattered.
+Starting and maintaining a business involves different requirements, documents, applications, and renewal deadlines. These processes can become confusing, especially for first-time business owners.
 
-**PermitPath brings these activities together in one organized workspace.**
+PermitPath aims to make that experience more manageable through a clean, organized, and user-friendly interface.
 
-With a clean interface and a premium, business-inspired visual design, users can review business requirements, track applications, organize document records, manage renewal reminders, and access government resource links.
+Instead of navigating scattered information, users can explore business requirements, organize important documents, monitor application progress, and keep track of upcoming renewals in one place.
 
-The goal is simple: give business owners a clearer view of their next steps so they can focus more on building their business.
+Built around a modern and professional design, PermitPath combines practical dashboard features with a simple workflow that helps users move forward with greater clarity.
+
+### ✨ Our Goal
+
+To make business registration and permit compliance easier to understand, easier to organize, and less overwhelming for entrepreneurs.
+
+> **PLAN. PREPARE. REGISTER. GROW.**
 
 ---
 
-# 🖥️ Application Preview
+## 📸 Application Preview
 
 <div align="center">
 
-| **Dashboard Overview** | **Business Requirements** |
-|:---:|:---:|
-| <img src="images/Overview.PNG" width="100%" alt="PermitPath dashboard overview"> | <img src="images/Requirements.PNG" width="100%" alt="PermitPath business requirements"> |
-| *See important business compliance information in one place.* | *Review and organize your business setup checklist.* |
+### Dashboard Overview
 
-| **Application Tracker** | **Document Organizer** |
-|:---:|:---:|
-| <img src="images/Application.PNG" width="100%" alt="PermitPath application tracker"> | <img src="images/Documents.PNG" width="100%" alt="PermitPath document organizer"> |
-| *Keep application progress and status organized.* | *Keep track of important business documents.* |
+<img src="images/Overview.PNG" width="90%" alt="PermitPath Dashboard Overview"/>
 
-| **Renewals and Reminders** | **Ask PermitPath** |
-|:---:|:---:|
-| <img src="images/Renewals%20and%20Reminders.PNG" width="100%" alt="PermitPath renewals and reminders"> | <img src="images/Ask%20Permit.PNG" width="100%" alt="Ask PermitPath guide"> |
-| *Keep upcoming renewal dates visible.* | *Explore explanations for common permit questions.* |
+*An organized dashboard for monitoring business registration and compliance progress.*
+
+<br/>
+
+### Application
+
+<img src="images/Application.PNG" width="90%" alt="PermitPath Application Interface"/>
+
+*Keep track of business application information and progress.*
+
+<br/>
+
+### Permit Requirements
+
+<img src="images/Requirements.PNG" width="90%" alt="PermitPath Requirements Interface"/>
+
+*Explore and organize the requirements associated with business permits.*
+
+<br/>
+
+### Document Management
+
+<img src="images/Documents.PNG" width="90%" alt="PermitPath Document Management"/>
+
+*Keep important business documents organized and accessible.*
+
+<br/>
+
+### Renewals and Reminders
+
+<img src="images/Renewals and Reminders.PNG" width="90%" alt="PermitPath Renewals and Reminders"/>
+
+*Monitor renewal schedules and important compliance deadlines.*
+
+<br/>
+
+### Ask Permit
+
+<img src="images/Ask Permit.PNG" width="90%" alt="PermitPath Ask Permit Interface"/>
+
+*Get helpful guidance through the Ask Permit interface.*
 
 </div>
 
 ---
 
-# ✨ Features
+## 🚀 Features
 
-PermitPath brings useful business organization tools together in one convenient interface.
+PermitPath brings together essential tools and interface elements to support a more organized business compliance experience.
 
-### 🏠 Dashboard Overview
+### 📊 1. Dashboard Overview
 
-- Centralized view of business compliance activity.
-- Quick access to important workspace sections.
-- Summary of applications, requirements, documents, and renewals.
-- Recent application activity and suggested next steps.
+- View important business information in one place.
+- Monitor application and compliance progress.
+- Access essential platform sections quickly.
+- Keep track of important business activities.
 
-### 📋 Business Requirements
+### 📝 2. Business Application
 
-- Guided business setup checklist.
-- Organized requirement categories.
-- Completion tracking and progress indicators.
-- Manageable checklist items.
-- Reminders to verify requirements with the relevant government office or LGU.
+- Organize business application information.
+- Follow the application workflow.
+- Review relevant business details.
+- Keep application-related information accessible.
 
-### 🗂️ Application Tracking
+### 📋 3. Permit Requirements
 
-- View business permit and registration application records.
-- Track application status and progress.
-- Add and manage application entries.
-- Keep important application activity organized.
+- Browse business permit requirements.
+- Review the documents associated with different processes.
+- Organize requirements before proceeding with applications.
+- Make preparation more structured and understandable.
 
-### 📁 Document Organizer
+### 📁 4. Document Management
 
-- Organize document records in one workspace.
-- Add document entries and categories.
-- Search and review saved document information.
-- Keep track of documents associated with business requirements.
+- Organize important business documents.
+- Keep track of document-related information.
+- Make document management more convenient.
+- Maintain a more structured compliance workspace.
 
-### 🔔 Renewals and Reminders
+### 🔔 5. Renewals and Reminders
 
-- Add important renewal dates and reminders.
-- Review upcoming deadlines.
-- Keep recurring compliance tasks visible.
-- Store reminder information in the browser.
+- Monitor upcoming permit renewals.
+- Keep important deadlines visible.
+- Organize renewal-related information.
+- Help reduce the chances of overlooking important dates.
 
-### 💬 Ask PermitPath
+### 💬 6. Ask Permit
 
-- Interactive guide for common business compliance questions.
-- Plain-language explanations for selected topics.
-- Helpful starting points for understanding permit-related processes.
-- Encourages users to confirm details with official sources.
+- Explore a dedicated assistance interface.
+- Get predefined guidance and explanations.
+- Make common business compliance topics easier to understand.
+- Provide a convenient starting point when users need help navigating the platform.
 
-### 🔗 Government Resources
+**Note:** Ask Permit currently uses predefined/demo guidance. It is not a live AI-powered service.
 
-- Quick access to selected Philippine government websites.
-- Starting points for business registration and compliance research.
-- Encourages verification of current requirements with the issuing agency or LGU.
+### 🎨 7. Premium User Interface
 
-### ✨ Modern User Interface
-
-- Premium, business-inspired visual identity.
-- Animated photographic hero background.
-- Floating image elements and visual gallery.
-- Smooth transitions and interactive hover effects.
-- Responsive layouts for different screen sizes.
+- Modern forest-green, warm ivory, and champagne-gold color palette.
+- Clean and professional dashboard layout.
+- Animated visual elements and refined transitions.
+- Image-based sections and elegant presentation.
+- Interactive hover effects.
+- Responsive layout for different screen sizes.
+- Reduced-motion support for users who prefer fewer animations.
 
 ---
 
-# 🛠️ Technologies Used
+## 🛠️ Built With
+
+PermitPath uses standard front-end web technologies.
 
 | Technology | Purpose |
 |---|---|
 | HTML5 | Application structure and content |
-| CSS3 | Styling, responsive layouts, and animations |
-| JavaScript (ES6+) | Interactive features and application logic |
-| Browser localStorage | Local persistence for prototype data |
-| Google Fonts | Typography |
-| Unsplash | Remote photographic backgrounds and gallery imagery |
-| Git | Version control |
-| GitHub | Source code hosting |
+| CSS3 | Styling, animations, layout, and responsiveness |
+| JavaScript | Interactive components and application behavior |
+| Local Storage | Saving supported prototype data in the browser |
+| Unsplash Images | Remote photography used in selected visual sections |
+
+### Technology Highlights
+
+- No backend server is required for the current prototype.
+- No API keys are required for the current implementation.
+- No npm installation is required.
+- The application can be opened using a local development server or browser.
 
 ---
 
-# 🚀 Installation
+## 📦 Installation
 
 Follow these steps to run PermitPath locally.
-
-### Prerequisites
-
-- [Git](https://git-scm.com/)
-- [Visual Studio Code](https://code.visualstudio.com/)
-- A modern web browser
 
 ### 1. Clone the Repository
 
@@ -157,28 +205,34 @@ cd Permit-Path
 
 ### 3. Open the Project
 
-```bash
-code .
-```
+You can open the project folder using Visual Studio Code.
 
-Alternatively, open the project folder directly in Visual Studio Code.
+### 4. Run the Application
 
-### 4. Launch the Application
+Recommended: use the **Live Server** extension in Visual Studio Code.
 
-Open `index.html` in your browser.
+1. Open `index.html`.
+2. Right-click inside the editor.
+3. Select **Open with Live Server**.
+4. PermitPath will open in your browser.
 
-For a better development experience, you can use the **Live Server** extension in Visual Studio Code.
-
-**No npm installation is required for the current front-end prototype.**
+Alternatively, open `index.html` directly in a modern web browser.
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
+
+The project follows a simple and organized front-end structure.
 
 ```text
 Permit-Path/
 │
+├── index.html
+├── styles.css
+├── app.js
+│
 ├── assets/
+│   └── (Project assets)
 │
 ├── images/
 │   ├── Application.PNG
@@ -188,60 +242,84 @@ Permit-Path/
 │   ├── Renewals and Reminders.PNG
 │   └── Requirements.PNG
 │
-├── index.html
-├── styles.css
-├── app.js
 ├── README.md
 ├── CONTRIBUTING.md
-├── .gitignore
-└── LICENSE
+├── LICENSE
+└── .gitignore
 ```
 
-*The project structure may change as development continues.*
+---
+
+## 💡 Why PermitPath?
+
+Business registration and permit compliance can involve multiple steps, documents, and deadlines.
+
+For new entrepreneurs, understanding where to begin can be challenging. For existing business owners, keeping everything organized can become another responsibility.
+
+PermitPath was designed around a simple idea:
+
+**Business owners should have a clearer way to organize their next steps.**
+
+By bringing essential information and organizational tools into one interface, PermitPath aims to make the business compliance experience more approachable.
+
+It focuses on:
+
+- **Clarity** — Present information in an organized and understandable way.
+- **Accessibility** — Make important sections easy to find.
+- **Organization** — Keep applications, documents, and renewals together.
+- **Convenience** — Provide a central place to manage supported prototype information.
+- **Simplicity** — Reduce unnecessary complexity through a straightforward interface.
 
 ---
 
-# 💡 Why PermitPath?
+## 🗺️ Future Improvements
 
-Starting and managing a business involves more than simply having a good idea. Entrepreneurs also need to understand registration procedures, prepare documents, monitor applications, and comply with renewal schedules.
+PermitPath is a prototype with room for further development.
 
-PermitPath aims to make these responsibilities easier to organize by bringing essential tools and information into one accessible workspace.
+Potential improvements include:
 
-Its design focuses on clarity, convenience, and a more approachable business compliance experience.
+- [ ] Real-time business permit requirement information.
+- [ ] Integration with relevant government services and agencies.
+- [ ] User accounts and secure authentication.
+- [ ] Cloud-based document storage.
+- [ ] Actual application submission and status tracking.
+- [ ] Automated renewal notifications.
+- [ ] Live AI-powered business permit assistance.
+- [ ] More comprehensive business registration guides.
+- [ ] Location-specific requirements for different Philippine cities and municipalities.
+- [ ] Improved accessibility and multilingual support.
 
----
-
-# 🔮 Future Improvements
-
-Potential improvements for future versions include:
-
-- 🔐 Secure business owner and administrator authentication.
-- 🗄️ Database integration for persistent business records.
-- 🤖 Live AI-powered permit assistance.
-- 📩 Email and SMS notifications.
-- 🧾 Digital document upload and management.
-- 🏢 Business registration and application integrations.
-- 📅 Automated renewal notifications.
-- 🔎 Advanced requirement searching and filtering.
-- ☁️ Secure cloud-based storage.
-- 🛡️ Improved privacy and data protection.
-- 📱 Dedicated mobile application support.
-
-*These are proposed improvements and are not necessarily available in the current prototype.*
+These improvements are planned possibilities and are not necessarily available in the current version.
 
 ---
 
-# 🤝 Contributing
+## 🤝 Contributing
 
-Contributions, suggestions, bug reports, and improvements are welcome!
+Contributions, suggestions, and improvements are welcome!
 
-If you are interested in improving PermitPath, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file before submitting changes.
+If you would like to contribute to PermitPath, please read the [CONTRIBUTING.md](CONTRIBUTING.md) file before submitting changes.
 
-Whether you are improving the interface, fixing an issue, enhancing functionality, or updating documentation, your contribution is appreciated.
+You can contribute by:
+
+- Reporting bugs.
+- Suggesting new features.
+- Improving the user interface.
+- Enhancing accessibility.
+- Improving documentation.
+- Submitting code improvements.
+
+### Basic Contribution Workflow
+
+1. Fork the repository.
+2. Create a new branch.
+3. Make your changes.
+4. Test your changes locally.
+5. Commit your updates.
+6. Submit a pull request.
 
 ---
 
-# 📄 License
+## 📄 License
 
 PermitPath is distributed under the **MIT License**.
 
@@ -249,23 +327,37 @@ See the [LICENSE](https://github.com/rheillunio2-byte/Permit-Path?tab=MIT-1-ov-f
 
 ---
 
-# 👨‍💻 Developer
+## 👨‍💻 Developer
 
-**Rheil Evans T. Lunio**
+<div align="center">
 
-GitHub: [@rheillunio2-byte](https://github.com/rheillunio2-byte)
+<img src="https://capsule-render.vercel.app/api?type=soft&color=0:102B24,100:1E493A&height=110&section=header&text=Built%20with%20Purpose&fontSize=28&fontColor=F8F5EC&animation=fadeIn" width="100%"/>
 
-Repository: [PermitPath](https://github.com/rheillunio2-byte/Permit-Path)
+### Rheil Evans T. Lunio
+
+**Developer & Creator of PermitPath**
+
+[![GitHub](https://img.shields.io/badge/GitHub-@rheillunio2--byte-181717?style=for-the-badge&logo=github)](https://github.com/rheillunio2-byte)
+
+[Visit the Repository](https://github.com/rheillunio2-byte/Permit-Path)
+
+</div>
 
 ---
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:bbd4bd,50:527b5e,100:203d2a&height=120&section=footer" width="100%" alt="Green footer">
+<!-- UNIQUE ANIMATED FOOTER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:102B24,50:1E493A,100:B99A5B&height=170&section=footer&text=Your%20Business%20Has%20a%20Path.&fontSize=27&fontColor=F8F5EC&animation=fadeIn&fontAlignY=65" width="100%"/>
 
-**PermitPath — Making business compliance simpler, clearer, and more accessible.** 🌿
+**PLAN • PREPARE • REGISTER • GROW**
 
-*Your Business. Your Path. Your Progress.*
+*Making business compliance a clearer journey.*
+
+<br/>
+
+⭐ If you find PermitPath interesting, consider giving the repository a star!
 
 </div>
 
+<!-- End of README.md -->
