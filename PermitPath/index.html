@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#10251f" />
+  <title>PermitPath — Your business, cleared for takeoff</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <a class="brand" href="#" aria-label="PermitPath home">
+        <span class="brand-mark"><svg viewBox="0 0 36 36" aria-hidden="true"><path d="M7 27.5 18 6l11 21.5h-7.1L18 19l-3.9 8.5H7Z" fill="currentColor"/><path d="M18 25.5h11" stroke="#d8b879" stroke-width="2.4" stroke-linecap="round"/></svg></span>
+        <span>permit<span>path</span></span>
+      </a>
+      <div class="workspace-label">WORKSPACE</div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-item active" data-view="overview"><span class="nav-icon">⌂</span> Overview</button>
+        <button class="nav-item" data-view="checklist"><span class="nav-icon">☷</span> Requirements</button>
+        <button class="nav-item" data-view="applications"><span class="nav-icon">◷</span> Applications <span class="nav-count" id="applicationNavCount">3</span></button>
+        <button class="nav-item" data-view="documents"><span class="nav-icon">▤</span> Documents</button>
+        <button class="nav-item" data-view="reminders"><span class="nav-icon">♧</span> Renewals & reminders</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="help-card">
+          <div class="help-spark">✳</div>
+          <strong>Need a little clarity?</strong>
+          <p>Ask the PermitPath guide to explain a requirement in plain language.</p>
+          <button class="help-link" data-open-assistant>Ask the guide <span>↗</span></button>
+        </div>
+        <div class="profile">
+          <div class="avatar">JL</div>
+          <div class="profile-copy"><strong>Jamie Lim</strong><span>Starter workspace</span></div>
+          <button class="more-button" aria-label="Profile options">•••</button>
+        </div>
+      </div>
+    </aside>
+
+    <main class="main-content">
+      <header class="topbar">
+        <div class="breadcrumb"><span>Workspace</span><b>/</b><strong id="pageCrumb">Overview</strong></div>
+        <div class="top-actions">
+          <span class="location-pill"><span class="pin">⌖</span> Cagayan de Oro, PH <span class="chevron">⌄</span></span>
+          <button class="icon-button" id="topReminderBtn" aria-label="View reminders">♧<i></i></button>
+          <div class="avatar small">JL</div>
+        </div>
+      </header>
+
+      <section class="view active" id="overviewView">
+        <div class="hero">
+          <div class="hero-content">
+            <div class="eyebrow light"><span></span> YOUR COMPLIANCE, IN ONE PLACE</div>
+            <h1>Good morning, Jamie.<br><em>Let's get business</em> moving.</h1>
+            <p>Clarity for every form, filing, and next step. Your path to staying compliant starts here.</p>
+            <button class="button button-gold" data-view-target="checklist">View my requirements <span>→</span></button>
+          </div>
+          <div class="hero-note"><span class="note-icon">✳</span><span><b>A clearer way forward</b><small>One step at a time. No guesswork.</small></span></div>
+          <div class="hero-visual" aria-hidden="true">
+            <div class="hero-photo hero-photo-main"><img src="https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=700&q=85" alt=""/><span>BUILT FOR YOUR NEXT CHAPTER</span></div>
+            <div class="hero-photo hero-photo-small"><img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=420&q=85" alt=""/></div>
+            <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+          </div>
+        </div>
+        <section class="inspiration-strip">
+          <div class="inspiration-heading"><div><div class="eyebrow">MADE FOR THE PEOPLE BUILDING SOMETHING</div><h2>Every great business starts <em>somewhere.</em></h2></div><span class="inspiration-caption">A little more clarity.<br/>A lot more confidence.</span></div>
+          <div class="inspiration-grid">
+            <article class="inspiration-card inspiration-cafe"><img src="https://images.unsplash.com/photo-1445116572660-236099ec97a0?auto=format&fit=crop&w=900&q=85" alt="Warm independent cafe interior"/><div class="image-shade"></div><div class="inspiration-copy"><span>HOSPITALITY</span><strong>Make room for<br/>what's next.</strong></div></article>
+            <article class="inspiration-card inspiration-studio"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=85" alt="Bright modern creative workspace"/><div class="image-shade"></div><div class="inspiration-copy"><span>CREATIVE & SERVICES</span><strong>Build a business<br/>that feels like you.</strong></div></article>
+            <article class="inspiration-card inspiration-retail"><img src="https://images.unsplash.com/photo-1604719312566-8912e9c8a213?auto=format&fit=crop&w=900&q=85" alt="Thoughtfully arranged retail store"/><div class="image-shade"></div><div class="inspiration-copy"><span>RETAIL & COMMERCE</span><strong>Turn your idea<br/>into a place.</strong></div></article>
+          </div>
+        </section>
+
+        <div class="section-heading welcome-heading">
+          <div><div class="eyebrow">YOUR BUSINESS SNAPSHOT</div><h2>At a glance</h2></div>
+          <button class="text-button" data-view-target="applications">See all activity <span>→</span></button>
+        </div>
+        <div class="stats-grid">
+          <article class="stat-card"><div class="stat-top"><span>Open applications</span><span class="stat-icon sage">◷</span></div><strong id="statApplications">03</strong><div class="stat-foot"><span class="dot amber"></span> In progress</div></article>
+          <article class="stat-card"><div class="stat-top"><span>Requirements complete</span><span class="stat-icon gold">✓</span></div><strong id="statComplete">08<span class="stat-denom">/12</span></strong><div class="progress-track"><span id="overviewProgress" style="width:67%"></span></div></article>
+          <article class="stat-card"><div class="stat-top"><span>Documents saved</span><span class="stat-icon blue">▤</span></div><strong id="statDocuments">06</strong><div class="stat-foot">Across your workspace</div></article>
+          <article class="stat-card"><div class="stat-top"><span>Upcoming renewals</span><span class="stat-icon rose">♧</span></div><strong id="statRenewals">02</strong><div class="stat-foot"><span class="dot rose-dot"></span> Next 60 days</div></article>
+        </div>
+
+        <div class="content-grid">
+          <section class="panel next-panel">
+            <div class="panel-heading"><div><div class="eyebrow">KEEP THE MOMENTUM</div><h3>Your next steps</h3></div><button class="dots" aria-label="More options">•••</button></div>
+            <div id="nextStepsList" class="next-steps"></div>
+            <button class="panel-footer-link" data-view-target="checklist">Open full checklist <span>→</span></button>
+          </section>
+          <section class="panel progress-panel">
+            <div class="panel-heading"><div><div class="eyebrow">THE BIG PICTURE</div><h3>Registration journey</h3></div><span class="status-tag">In progress</span></div>
+            <div class="journey-progress"><div class="journey-number" id="journeyPercent">67<span>%</span></div><div><strong>You're making progress.</strong><p>Keep going — each completed step brings you closer to opening day.</p></div></div>
+            <div class="journey-bar"><span id="journeyBar" style="width:67%"></span></div>
+            <div class="journey-legend"><span><i class="legend-done"></i> Completed</span><span><i class="legend-todo"></i> Remaining</span></div>
+            <div class="journey-tip"><span>✦</span><p><b>Small tip</b> — Keep digital copies of signed forms and official receipts in your document vault.</p></div>
+          </section>
+        </div>
+
+        <section class="panel activity-panel">
+          <div class="panel-heading"><div><div class="eyebrow">RECENT UPDATES</div><h3>Application activity</h3></div><button class="text-button" data-view-target="applications">View tracker →</button></div>
+          <div class="activity-list" id="activityList"></div>
+        </section>
+      </section>
+
+      <section class="view" id="checklistView">
+        <div class="page-intro"><div class="eyebrow">YOUR COMPLIANCE ROADMAP</div><h1>Requirements, <em>made manageable.</em></h1><p>A working checklist for your business journey. Requirements vary by business structure and LGU — verify the exact list with the issuing office before filing.</p></div>
+        <div class="filter-row"><div class="filter-tabs"><button class="filter-tab selected" data-filter="all">All <span id="allCount">12</span></button><button class="filter-tab" data-filter="todo">To do</button><button class="filter-tab" data-filter="done">Completed</button></div><button class="button button-dark" id="addRequirementBtn">＋ Add requirement</button></div>
+        <div class="checklist-layout"><div class="panel checklist-panel"><div class="panel-heading"><div><h3>Business setup checklist</h3><p class="muted" id="checklistSummary">8 of 12 requirements completed</p></div><span class="progress-badge" id="checklistPercent">67%</span></div><div class="checklist-items" id="checklistItems"></div></div><aside class="panel source-panel"><div class="source-emblem">✳</div><div class="eyebrow">A NOTE ON ACCURACY</div><h3>Start with the source.</h3><p>PermitPath helps organize your journey. It does not issue permits or replace advice from government offices.</p><div class="source-divider"></div><strong>Useful official starting points</strong><a href="https://bnrs.dti.gov.ph/" target="_blank" rel="noopener">DTI Business Name Registration <span>↗</span></a><a href="https://www.sec.gov.ph/" target="_blank" rel="noopener">Securities and Exchange Commission <span>↗</span></a><a href="https://www.bir.gov.ph/" target="_blank" rel="noopener">Bureau of Internal Revenue <span>↗</span></a><a href="https://www.dilg.gov.ph/" target="_blank" rel="noopener">Department of the Interior and Local Government <span>↗</span></a><a href="https://business.gov.ph/" target="_blank" rel="noopener">Philippine Business Hub <span>↗</span></a><div class="source-warning">Always confirm current fees, forms, deadlines, and local steps directly with the relevant agency or LGU.</div></aside></div>
+      </section>
+
+      <section class="view" id="applicationsView">
+        <div class="page-intro"><div class="eyebrow">STAY ON TOP OF EVERY FILING</div><h1>Your applications, <em>in motion.</em></h1><p>Keep every submission visible, from first draft to final approval.</p></div>
+        <div class="toolbar"><div class="filter-tabs"><button class="filter-tab selected" data-app-filter="all">All applications</button><button class="filter-tab" data-app-filter="active">In progress</button><button class="filter-tab" data-app-filter="complete">Completed</button></div><button class="button button-dark" id="newApplicationBtn">＋ New application</button></div>
+        <div class="application-grid" id="applicationGrid"></div>
+      </section>
+
+      <section class="view" id="documentsView">
+        <div class="page-intro"><div class="eyebrow">YOUR PAPERWORK, WITH A PLACE</div><h1>The document <em>vault.</em></h1><p>Keep important business files organized and easy to find. Files are stored in this browser for this demo; back up originals securely.</p></div>
+        <div class="document-toolbar"><div class="search-box"><span>⌕</span><input id="documentSearch" placeholder="Search your documents..." /></div><label class="button button-dark upload-button">＋ Upload document<input type="file" id="fileUpload" multiple hidden /></label></div>
+        <div class="document-categories"><button class="doc-filter selected" data-doc-filter="all">All files</button><button class="doc-filter" data-doc-filter="registration">Registration</button><button class="doc-filter" data-doc-filter="tax">Tax & finance</button><button class="doc-filter" data-doc-filter="permits">Permits</button><button class="doc-filter" data-doc-filter="other">Other</button></div>
+        <div class="document-grid" id="documentGrid"></div>
+      </section>
+
+      <section class="view" id="remindersView">
+        <div class="page-intro"><div class="eyebrow">NEVER MISS A DATE</div><h1>Stay a step <em>ahead.</em></h1><p>Track permit renewals and important compliance dates in one calm, clear timeline.</p></div>
+        <div class="reminder-banner"><div class="reminder-banner-icon">♧</div><div><strong>Make future-you's life easier.</strong><p>Add a renewal date and PermitPath will keep it on your dashboard. Browser notifications are not enabled in this demo.</p></div><button class="button button-gold" id="addReminderBtn">＋ Add reminder</button></div>
+        <div class="reminder-columns"><section class="panel"><div class="panel-heading"><div><div class="eyebrow">COMING UP</div><h3>Upcoming dates</h3></div><span class="status-tag">Your calendar</span></div><div id="reminderList" class="reminder-list"></div></section><section class="panel renewal-guide"><div class="eyebrow">RENEWAL CHECK-IN</div><h3>Before you renew</h3><ul><li>Confirm the current renewal window with the issuing office.</li><li>Check if updated forms or supporting documents are required.</li><li>Keep proof of payment and your renewed permit together.</li><li>Update your tracker once the renewal is submitted.</li></ul><a href="https://business.gov.ph/" target="_blank" rel="noopener">Visit Philippine Business Hub ↗</a></section></div>
+      </section>
+
+      <footer class="footer"><span>© 2026 PermitPath</span><span>Built for clearer business beginnings <i>✳</i></span><span><a href="https://business.gov.ph/" target="_blank" rel="noopener">Official resource hub ↗</a></span></footer>
+    </main>
+  </div>
+
+  <button class="assistant-fab" id="assistantFab" aria-label="Open PermitPath guide"><span>✳</span><small>Ask PermitPath</small></button>
+  <div class="assistant-panel" id="assistantPanel" aria-hidden="true">
+    <div class="assistant-head"><div class="assistant-avatar">✳</div><div><strong>PermitPath Guide</strong><small><i></i> Here to help you make sense of it</small></div><button id="closeAssistant" aria-label="Close assistant">×</button></div>
+    <div class="assistant-disclaimer">GUIDANCE MODE · DEMO</div>
+    <div class="chat-messages" id="chatMessages"><div class="chat-bubble bot">Hi Jamie! I can explain common business compliance terms, help you plan questions for an agency, or point you toward official resources. What are you working on?</div></div>
+    <div class="suggested-prompts"><button>What is a barangay clearance?</button><button>DTI or SEC — which applies?</button><button>How do I prepare for a BIR visit?</button></div>
+    <form id="chatForm" class="chat-form"><input id="chatInput" placeholder="Ask a compliance question..." autocomplete="off" /><button aria-label="Send message">↑</button></form>
+    <p class="chat-footnote">Demo assistant: responses are general information, not legal or official advice. Verify requirements with the relevant agency or LGU.</p>
+  </div>
+
+  <div class="modal-backdrop" id="modalBackdrop"><div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><div class="modal-head"><div><div class="eyebrow">PERMITPATH WORKSPACE</div><h3 id="modalTitle">Add an item</h3></div><button id="closeModal" aria-label="Close">×</button></div><form id="modalForm"><div id="modalFields"></div><div class="modal-actions"><button type="button" class="button button-quiet" id="cancelModal">Cancel</button><button type="submit" class="button button-dark" id="modalSubmit">Save item →</button></div></form></div></div>
+  <div class="toast" id="toast"></div>
+  <script src="app.js"></script>
+</body>
+</html>
